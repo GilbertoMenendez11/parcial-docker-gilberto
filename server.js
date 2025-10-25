@@ -21,6 +21,7 @@ app.get('/db-check', async (req, res) => {
     password: process.env.DB_PASSWORD || '12345',
     database: process.env.DB_NAME || 'parcial_db'
   });
+
   try {
     await client.connect();
     const result = await client.query('SELECT 1 AS ok;');
@@ -31,4 +32,4 @@ app.get('/db-check', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => console.log(`Servidor en puerto ${PORT}`));
+app.listen(PORT, () => console.log(`Servidor ejecutándose en puerto ${PORT}`));
