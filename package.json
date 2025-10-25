@@ -1,0 +1,24 @@
+{
+  "name": "parcial-docker-gilberto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilbertoMenendez11/parcial-docker-gilberto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GilbertoMenendez11/parcial-docker-gilberto/issues"
+  },
+  "homepage": "https://github.com/GilbertoMenendez11/parcial-docker-gilberto#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
